@@ -1,0 +1,167 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #d1a7e2;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #4c176b;
+    margin: 0;
+    font-size: 1.5em;
+}
+/*
+.logo-icon {
+    width: 10px;
+    height: 10px; 
+    margin-right: 5px; 
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4c176b;
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    width: 16px; /* Adjust the size as needed */
+    height: 12.5px; /* Adjust the size as needed */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.jobs-icon {
+    width: 16px; /* Adjust the size as needed */
+    height: 20px; /* Adjust the size as needed */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.services-icon {
+    width: 12px; /* Adjust the size as needed */
+    height: 15.5px; /* Adjust the size as needed */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.post-btn, .account-btn {
+    background-color: #d1a7e2;
+    border: 1px solid #4c176b;
+    color: #4c176b;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.post-btn:hover, .account-btn:hover {
+    background-color: #4c176b;
+    color: #fff;
+}
+
+/* Main content styling */
+main {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #e9d2f3;
+}
+
+.sidebar input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.sidebar h3, .sidebar ul, .sidebar button {
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #d1a7e2;
+    color: #4c176b;
+    cursor: pointer;
+}
+
+.sidebar button:hover {
+    background-color: #4c176b;
+    color: #fff;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+h2 {
+    color: #4c176b;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.post {
+    background-color: #e9d2f3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #d1a7e2;
+    padding: 10px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #4c176b;
+}
